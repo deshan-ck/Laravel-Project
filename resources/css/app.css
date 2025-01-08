@@ -1,0 +1,64 @@
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    body {
+        font-size: 14px;
+    }
+    .container {
+        padding: 10px;
+    }
+    .btn-primary:hover {
+    background-color: #1a4777;
+    border-color: #1a4777;
+}
+
+.btn-success:hover {
+    background-color: #cd8f08;
+    border-color: #cd8f08;
+}
+
+.btn {
+    border-radius: 30px; /* Rounded buttons */
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.3s ease-in-out;
+}
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  footer a:hover {
+    color: #ffd700; /* Gold color on hover */
+    text-decoration: underline;
+  }
+  
+  footer hr {
+    border-top: 1px solid #555;
+  }
+  
+  footer .fab {
+    transition: color 0.3s ease;
+  }
+  
+  footer .fab:hover {
+    color: #ffd700; /* Highlight effect for icons */
+  }
+    
+}
+
